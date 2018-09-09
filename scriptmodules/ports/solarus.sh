@@ -23,7 +23,7 @@ function sources_solarus() {
     downloadAndExtract "http://www.solarus-games.org/downloads/solarus/solarus-1.5.3-src.tar.gz" "$md_build" 1
     downloadAndExtract "http://www.zelda-solarus.com/downloads/zsdx/zsdx-1.11.0.tar.gz" "$md_build"
     downloadAndExtract "http://www.zelda-solarus.com/downloads/zsxd/zsxd-1.11.0.tar.gz" "$md_build"
-downloadAndExtract "http://www.zelda-solarus.com/downloads/zelda-roth-se/zelda-roth-se-1.1.0.tar.gz" "$md_build"
+    downloadAndExtract "http://www.zelda-solarus.com/downloads/zelda-roth-se/zelda-roth-se-1.1.0.tar.gz" "$md_build"
 }
 
 function build_solarus() {
